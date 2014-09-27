@@ -14,7 +14,7 @@
 		EE16E2F719D72CFF000381AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE16E2F619D72CFF000381AE /* main.m */; };
 		EE16E2FB19D72CFF000381AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE16E2FA19D72CFF000381AE /* AppDelegate.m */; };
 		EE16E2FE19D72CFF000381AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE16E2FC19D72CFF000381AE /* Main.storyboard */; };
-		EE16E30119D72CFF000381AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE16E30019D72CFF000381AE /* ViewController.m */; };
+		EE16E30119D72CFF000381AE /* Welcome.m in Sources */ = {isa = PBXBuildFile; fileRef = EE16E30019D72CFF000381AE /* Welcome.m */; };
 		EE16E30319D72CFF000381AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE16E30219D72CFF000381AE /* Images.xcassets */; };
 		EE16E30A19D72D00000381AE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE16E30919D72D00000381AE /* XCTest.framework */; };
 		EE16E30B19D72D00000381AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE16E2EA19D72CFF000381AE /* Foundation.framework */; };
@@ -45,8 +45,8 @@
 		EE16E2F919D72CFF000381AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE16E2FA19D72CFF000381AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EE16E2FD19D72CFF000381AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EE16E2FF19D72CFF000381AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EE16E30019D72CFF000381AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE16E2FF19D72CFF000381AE /* Welcome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Welcome.h; sourceTree = "<group>"; };
+		EE16E30019D72CFF000381AE /* Welcome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Welcome.m; sourceTree = "<group>"; };
 		EE16E30219D72CFF000381AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EE16E30819D72D00000381AE /* UAG01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UAG01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE16E30919D72D00000381AE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +115,8 @@
 				EE16E2F919D72CFF000381AE /* AppDelegate.h */,
 				EE16E2FA19D72CFF000381AE /* AppDelegate.m */,
 				EE16E2FC19D72CFF000381AE /* Main.storyboard */,
-				EE16E2FF19D72CFF000381AE /* ViewController.h */,
-				EE16E30019D72CFF000381AE /* ViewController.m */,
+				EE16E2FF19D72CFF000381AE /* Welcome.h */,
+				EE16E30019D72CFF000381AE /* Welcome.m */,
 				EE16E30219D72CFF000381AE /* Images.xcassets */,
 				EE16E2F119D72CFF000381AE /* Supporting Files */,
 			);
@@ -249,7 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE16E30119D72CFF000381AE /* ViewController.m in Sources */,
+				EE16E30119D72CFF000381AE /* Welcome.m in Sources */,
 				EE16E2FB19D72CFF000381AE /* AppDelegate.m in Sources */,
 				EE16E2F719D72CFF000381AE /* main.m in Sources */,
 			);
@@ -379,6 +379,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UAG01/UAG01-Prefix.pch";
 				INFOPLIST_FILE = "UAG01/UAG01-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +393,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UAG01/UAG01-Prefix.pch";
 				INFOPLIST_FILE = "UAG01/UAG01-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
